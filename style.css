@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url('body.jpg');
+    background-size: cover;
+    background-size: 300px;
+}
+
+/* header section  */
+#header-img{
+    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 7, 0.700)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+#header-img h1{
+    font-family: 'Reem Kufi', sans-serif;
+    color: #ffffff;
+    font-size: 40px !important;
+    margin-top: 35px !important;
+    cursor: pointer;
+}
+#header-img h2{
+    font-family: 'Reem Kufi', sans-serif;
+    color: #DF1239;
+    font-size: 20px !important;
+    cursor: pointer;
+}
+#header-img h3{
+    font-family: 'Reem Kufi', sans-serif;
+    color: #beafb2;
+    font-size: 20px !important;
+    cursor: pointer;
+}
+#running-text{
+    background: #1515151a !important;
+}
+#running-text h1{
+    font-size: 20px;
+    color: #151515;
+    font-family: 'Baloo Da 2', cursive;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    opacity: 1 !important;
+}
+/* body section  */
+.card{
+    border-radius: 0% !important;
+    border-top: 3px solid #DF1239 !important;
+    border-bottom: 3px solid #DF1239 !important;
+    border-left: 3px solid #df123800 !important;
+    border-right: 3px solid #df123800 !important;
+    transition: 0.5s;
+}
+.card-header{
+    background: #151515 !important;
+    border-radius: 0% !important;
+}
+.card-body{
+    background: #151515f1 !important;
+}
+.card-body span{
+    color: #DF1239;
+}
+.card-footer{
+    background: #151515 !important;
+    border-radius: 0% !important;
+}
+.card h1{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 23px;
+    margin: 0% !important;
+    margin-bottom: -5px !important;
+    color: #DF1239;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card h1:hover{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 23px;
+    margin: 0% !important;
+    margin-bottom: -5px !important;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.card h2{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 16px;
+    margin: 0% !important;
+    margin-top: 5px !important;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card h2:hover{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 16px;
+    margin: 0% !important;
+    margin-top: 5px !important;
+    color: #ffffff;
+    margin-left: 5px !important;
+}
+.card .play a{
+    color: #DF1239;
+    transition: 0.5s;
+}
+.card .buy a{
+    color: #DF1239 !important;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.card .buy a:hover{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.card .play a:hover{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* footer section  */
+.footer-title{
+    background: #151515;
+    margin-top: 50px;
+}
+.footer-title h1{
+    color: #DF1239;
+    margin-top: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    cursor: pointer;
+}
+.footer-title i{
+    color: #DF1239;
+    font-size: 20px;
+    margin-top: 7px;
+    border: 2px dashed #DF1239;
+    height: 45px;
+    width: 45px;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-title i:hover{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 7px;
+    border: 2px dashed #DF1239;
+    height: 45px;
+    width: 45px;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #DF1239;
+}
+.copyright{
+    background: #222222;
+}
+.copyright h1{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 7px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.to-top{
+   background: #151515;
+   position: fixed;
+   bottom: 16px;
+   right: 32px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 32px;
+   color: #DF1239;
+   text-decoration: none !important;
+   opacity: 0;
+   pointer-events: none;
+   transition: all .4s;
+}
+.to-top:hover{
+    background: #151515;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #ffffff;
+    text-decoration: none !important;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+ }
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
